@@ -30,12 +30,14 @@ module clock_div_tf;
 
     // Outputs
     wire clk_out;
+    wire [7:0] leds;
 
     // Instantiate the Unit Under Test (UUT)
     clock_div uut (
         .clk_in(clk_in),
         .reset(reset),
-        .clk_out(clk_out)
+        .clk_out(clk_out),
+        .leds(leds)
     );
 
     always #5 clk_in = ~clk_in; // periodo 10 ns
