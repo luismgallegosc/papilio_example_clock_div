@@ -33,4 +33,12 @@ CONFIG PROHIBIT=P47;
 
 NET clk_in      LOC="P89"  | IOSTANDARD=LVCMOS25 | PERIOD=31.25ns;        # CLK
 NET clk_out     LOC="P91"  | IOSTANDARD=LVCMOS33;                         # C0
+NET leds(0)     LOC="P92"  | IOSTANDARD=LVCMOS33;                         # C1
+NET leds(1)     LOC="P94"  | IOSTANDARD=LVCMOS33;                         # C2
+NET leds(2)     LOC="P95"  | IOSTANDARD=LVCMOS33;                         # C3
+NET leds(3)     LOC="P98"  | IOSTANDARD=LVCMOS33;                         # C4
+NET leds(4)     LOC="P2"   | IOSTANDARD=LVCMOS33;                         # C5
+NET leds(5)     LOC="P3"   | IOSTANDARD=LVCMOS33;                         # C6
+NET leds(6)     LOC="P4"   | IOSTANDARD=LVCMOS33;                         # C7
+NET leds(7)     LOC="P5"   | IOSTANDARD=LVCMOS33;                         # C8
 NET reset       LOC="P17"  | IOSTANDARD=LVCMOS33;                         # C15
