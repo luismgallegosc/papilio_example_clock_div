@@ -1,6 +1,6 @@
 # Clock frequency divider
 
-Example project for a clock frequency divider using a Papilio One board.
+Example project for a clock frequency divider using a [Papilio One](http://papilio.cc/index.php?n=Papilio.PapilioOne) board.
 
 The input frequency used for the divider is the 32 MHz operating frequency of the Papilio One, and it is reduced to 1 Hz.
 The reduced frequency is sent out through one of the board's pins, which is then connected to an LED.
